@@ -1,0 +1,791 @@
+<chapter version="5.0" xml:lang="en" xmlns="http://docbook.org/ns/docbook"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>No title</title>
+  <section xml:id="h.t2f0ahjqjbf7.1">
+    <title>Introduction</title>
+    <section xml:id="h.neyvrmz5e0u7.1">
+      <title>Purpose</title>
+      <para>The main purpose of this Note is to define a method and a
+      template to collect Physical Science use cases from scientists and
+      research engineers working on Physical Science projects in the context
+      and within the scope of the OpenPOWER Foundation for Physical Science
+      Workgroup.</para>
+      <para>An effective method (shared between all stakeholders) could
+      contribute to</para>
+      <itemizedlist>
+        <listitem>
+          <para>understand the workflow, starting with user
+          expectations;</para>
+        </listitem>
+        <listitem>
+          <para>help Physical Science projects maintain costs within a chosen
+          envelope;</para>
+        </listitem>
+        <listitem>
+          <para>map the functionalities to the scientific requirements;</para>
+        </listitem>
+        <listitem>
+          <para>remove the misunderstanding between scientific community and
+          ICT stakeholders.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Section 
+      <xref linkend="error_section" /> h.fjazhaptp3e8 describes the context
+      and the main OPFPS workflow. The proposed method is a template reported
+      in Section 
+      <xref linkend="error_section" /> h.bj00l8vcud7l and justified in
+      Section 
+      <xref linkend="error_section" /> h.d31180cwfjew.</para>
+    </section>
+    <section xml:id="h.ml4p7h2u5bgd.1">
+      <title>Scope</title>
+      <para>This OPFPS WG should contribute, with the foreseen deliverables
+      (WP2, WP3 and WP4) (see [1]), in a more effective process of managing the
+      increasing complexity of a Physical Science projects, because this could
+      help to take the ICT system under control or to find new solutions that
+      are at the corner of the ICT industry.</para>
+    </section>
+    <section xml:id="h.zhspm95fi9e9.1">
+      <title>Stakeholders identification</title>
+      <para>This section describes the intended audience of this Note and of
+      the OPFPS WG.</para>
+      <para>Stakeholders are individuals, groups, organizations who are
+      actively involved in the scientific project, are affected by its
+      outcome or are able to influence its outcome. All stakeholders could be
+      OPFPS members. The stakeholders are:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Physical Science community: stakeholders that should provide
+          requirements:</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Scientists</para>
+        </listitem>
+        <listitem>
+          <para>Research engineers</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>ICT community: stakeholders that could provide a
+          solution</para>
+        </listitem>
+        <listitem>
+          <para>WG participants: members of both community that should provide
+          support in collecting, analyzing and categorizing
+          requirements.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section xml:id="h.64nbpuogu2cr.1">
+      <title>Acronyms</title>
+      <para>OPF = OpenPOWER Foundation</para>
+      <para>OPFPS = OpenPOWER Foundation for Physical Science</para>
+      <para>WG = Workgroup</para>
+    </section>
+    <section xml:id="h.k597y24tvijd.1">
+      <title>Definitions</title>
+      <itemizedlist>
+        <listitem>
+          <para>Problem analysis: Problem analysis involves identifying the
+          overriding problem and establishing the causes and effects related to
+          that problem.</para>
+        </listitem>
+        <listitem>
+          <para>Scientific objectives: The scientific objectives are the goals
+          of a scientific project. The scientific requirements are needed to
+          reach the scientific objectives.</para>
+        </listitem>
+        <listitem>
+          <para>Scientific requirements A) are high-level statements that
+          are needed to reach the scientific objectives/goals of the scientific
+          project (and of the scientific organisation that manage the project).
+          They describe the results that the project will achieve, and the
+          metrics which will be used to measure its success. Scientific
+          requirements must be achieved to provide value for the scientific
+          project.  B) A requirement of a physical science experiment
+          described in terms of the parameters to perform science (e.g. minimum
+          sensitivity of a telescope, minimum angular resolution). </para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Example: we need to observe N celestial objects in T
+          time.</para>
+        </listitem>
+        <listitem>
+          <para>Example: we need to repoint the telescope in 30 seconds.</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>System requirements: requirements of the HW/SW solution, i.e.
+          the functional and non-functional requirements of the proposed
+          system. Functional requirements define a function or a behaviour
+          of a system (a list of the major features or user capabilities unique
+          to the product). Non-functional requirements impose qualities
+          and constraints on the design or implementation (such as performance,
+          security, or reliability).</para>
+        </listitem>
+        <listitem>
+          <para>System: the solution that should be proposed/developed.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section xml:id="h.9w8eqfcov7xi.1">
+      <title>Reference</title>
+      <para>[1] OPFPS charter</para>
+      <para>[2] SEI, “A Framework for Software Product Line Practice, Version
+      5.0”, 2012,
+      http://www.sei.cmu.edu/productlines/frame_report/req_eng.htm</para>
+      <para>[3] Alistair Cockburn, “Writing Effective Use Cases”, Addison
+      Wesley, 2000</para>
+      <para>[4] M. Christel, K. Chang, “Issues in Requirements Elicitation”,
+      CMU/SEI-92-TR-012, 1992</para>
+      <para>[5] Macaulay, Linda, Fowler, Chris, Kirby, Mark, and Hutt, Andrew.
+      USTM: A New Approach to Requirements Specification. Interacting with
+      Computers 2(1):92-118, April 1990.</para>
+      <para>[6] Robin F. Goldsmith, JD, “Conventional Requirements Model Flaw
+      Misses REAL Business Requirements”, 2007, available at 
+      <link xl:href="https://www.google.com/url?q=http://www.gopromanagement.com&amp;sa=D&amp;ust=1493996251691000&amp;usg=AFQjCNFeYz4qDqEpGVfWdbi5gyI1Xp3X-A">
+
+        <citetitle>
+        https://www.google.com/url?q=http://www.gopromanagement.com&amp;sa=D&amp;ust=1493996251691000&amp;usg=AFQjCNFeYz4qDqEpGVfWdbi5gyI1Xp3X-A</citetitle>
+      </link> </para>
+      <para>[7] Robin F. Goldsmith, JD, “BAs Will Falter Until They Learn to
+      Discover REAL, Business Requirements”, IEEE 17th Requirements Engineering
+      Conference (RE’09), 2009</para>
+      <para>[8] Dean Leffingwell, Don Widrig, “Managing Software Requirements:
+      A Use Case Approach”, 2nd Edition, 2003</para>
+    </section>
+  </section>
+  <section xml:id="h.fjazhaptp3e8.1">
+    <title>The context</title>
+    <section xml:id="h.x8ybuq41czt2.1">
+      <title>Physical Science</title>
+      <para>Physical Science is any science concerned with nonliving matter,
+      energy, and the physical properties of the Universe, such as physics,
+      chemistry, astronomy, and geology.</para>
+      <para>In this context, the OPFPS WG cover the following aspects:
+      <superscript>
+      <xref linkend="error_section" /> cmnt1</superscript>
+      <superscript>
+      <xref linkend="error_section" /> cmnt2</superscript></para>
+      <itemizedlist>
+        <listitem>
+          <para>Needs of Big Science Projects</para>
+        </listitem>
+        <listitem>
+          <para>Needs of experiments at laboratory level</para>
+        </listitem>
+        <listitem>
+          <para>Software frameworks</para>
+        </listitem>
+        <listitem>
+          <para>Software libraries</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section xml:id="h.1tyskhwshjst.1">
+      <title>OPFPS workflow</title>
+      <para>A basic OPFPS workflow could be summarized as the following:</para>
+      <itemizedlist>
+        <listitem>
+          <para>requirement inception (eliciting requirements), to collect
+          functional requirements (e.g. as use cases) and related
+          non-functional requirements from scientific community (from
+          scientific stakeholders);</para>
+        </listitem>
+        <listitem>
+          <para>requirement analysis, determining and refining the system
+          requirements, to provide a coherent view of the use cases, and to
+          resolve misunderstanding (from OPFPS members);</para>
+        </listitem>
+        <listitem>
+          <para>system modelling: deriving a logical workflow/dataflow model of
+          the system, to derive commonalities between different use cases (from
+          OPFPS members);</para>
+        </listitem>
+        <listitem>
+          <para>provide a solution (from ICT stakeholders)
+          <superscript>
+          <xref linkend="error_section" /> cmnt3</superscript>
+          <superscript>
+          <xref linkend="error_section" /> cmnt4</superscript>.</para>
+        </listitem>
+      </itemizedlist>
+      <para>The proposed process is iterative, so that reference solutions can
+      be reworked in the light of increased knowledge. Iteration means that the
+      scientific stakeholders should provide use cases and non-functional
+      requirements and refine them based on feedbacks received by other
+      stakeholders or by the OPFPS members.</para>
+      <itemizedlist>
+        <listitem>
+          <para>The OPFPS members are available to update the common workflow
+          for each new use case that is added or updated.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+  <section xml:id="h.bj00l8vcud7l.1">
+    <title>Requirement inception method</title>
+    <section xml:id="h.uc5h5eptiqau.1">
+      <title>Method</title>
+      <para>Two main steps are foreseen:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Description of the scientific problem and related scientific
+          requirements: In this context, the WG asks scientific stakeholders to
+          provide an overview/summary of their problem (with a short
+          description of the scientific objectives), and to provide scientific
+          requirements that could be measurable; this helps to identify the
+          scientific requirements for which a possible HW/SW solution has the
+          greatest impact. The main purpose is to provide a real value of the
+          proposed solution to the users;</para>
+        </listitem>
+        <listitem>
+          <para>Definition of use cases and identification of system
+          requirements (functional and non-functional) that are used as input
+          to define a solution.</para>
+        </listitem>
+      </itemizedlist>
+      <para>The main purpose is to identify system functional and system
+      non-functional requirements that provide real value for the
+      scientific project, i.e. to help to fulfill scientific
+      requirements. System functional requirements define a function
+      or a behaviour of a system. System non-functional
+      requirements impose qualities and constraints on the design or
+      implementation of the system (such as performance, security, or
+      reliability).</para>
+      <para>In Section 
+      <xref linkend="error_section" /> h.hifw4g34594y we report the
+      template, that reflects the two steps depicted above. Sections 
+      <xref linkend="error_section" /> h.ivq40yd8cvjz, 
+      <xref linkend="error_section" /> h.z8a4r4bndbdc and 
+      <xref linkend="error_section" /> h.k1sz7cwj362y report a
+      justification of the template. Section 
+      <xref linkend="error_section" /> h.okc3b56431x4 is a summary.</para>
+    </section>
+    <section xml:id="h.hifw4g34594y.1">
+      <title>The template</title>
+      <para>Scientists, research engineers, hardware and software developers
+      and vendors do not have a common language and terms; all WG participants
+      need details and guidance that organise the information in a uniform way.
+      For the purpose of this work the use cases must be readable by all
+      involved stakeholders.</para>
+      <para>In this section we propose a template to collect Physical
+      Science use cases from scientific stakeholders. This template could
+      help to collect problem statements and solution requirements. With
+      this template we will help stakeholders to extract useful information
+      from their “problem” to better understand:</para>
+      <orderedlist>
+        <listitem>
+          <para>which scientific requirement the proposed solution should
+          fulfill and</para>
+        </listitem>
+        <listitem>
+          <para>to better identify use cases/workflows/functional requirements
+          and the context;</para>
+        </listitem>
+        <listitem>
+          <para>to reduce problem of scope, understanding and presumptions
+          (check Section 
+          <xref linkend="error_section" /> h.5an7rpesemtx);</para>
+        </listitem>
+        <listitem>
+          <para>to avoid to omit information that is mandatory to extract a
+          workflows
+          <superscript>
+          <xref linkend="error_section" /> cmnt5</superscript>
+          <superscript>
+          <xref linkend="error_section" /> cmnt6</superscript>;</para>
+        </listitem>
+        <listitem>
+          <para>to enable solutions with a real benefit for
+          scientists.</para>
+        </listitem>
+      </orderedlist>
+      <para>The template is organized in sections and where some key questions
+      or suggestions are presents.</para>
+      <para>
+        <xref linkend="error_section" />
+      </para>
+      <para>
+        <xref linkend="error_section" />
+      </para>
+      <para>The following sections report a justification of the
+      template.</para>
+    </section>
+    <section xml:id="h.ivq40yd8cvjz.1">
+      <title>Problem analysis and scientific requirements</title>
+      <para>It is important to have a summary of the problem that the
+      scientific project covers/wants to resolve. The scientific stakeholders
+      should extract some basic information from their problem domain.</para>
+      <para>The section “Scientific problem analysis” helps OPFPS members and
+      ICT stakeholders to focus on useful information from the problem domain
+      of the scientific project. In fact, this is a basic problem
+      analysis procedure that help OPF members and ICT stakeholders to
+      identify the real value for scientists in the resolution of their
+      problems.</para>
+      <para>The first step is the identification of scientific objectives,
+      i.e. the goals of the scientific project (section “Scientific
+      objectives”).</para>
+      <para>The scientific requirements are needed to reach the scientific
+      objectives. The scientific stakeholders should identify the scientific
+      requirements of the project (in analogy with the “business
+      requirements” for an enterprise) for which the proposed solution has the
+      maximum impact, and to provide a metric that will be used to measure
+      the effectiveness of the proposed solution (section “Scientific
+      requirements and problem definition”).</para>
+      <para>The primary reason products/systems don’t help to improve/satisfy
+      the right scientific requirements is because the scientific requirements
+      have not been identified adequately or they have not been properly
+      understood by the ICT stakeholders (section “Underlying causes of a
+      problem”).</para>
+      <para>This step will help to define a reference solution for a
+      workflow/system that will provide a real value for the scientific project
+      (section “Benefits of a solution”).</para>
+      <para>For a justification of the problem analysis, and the impact on the
+      requirement inception see Section 
+      <xref linkend="error_section" /> h.it0ht7pktu33 </para>
+    </section>
+    <section xml:id="h.z8a4r4bndbdc.1">
+      <title>System requirements</title>
+      <para>With the scientific requirements in mind the scientific
+      stakeholders should define the system requirements of the HW/SW
+      solution, i.e. the functional and non-functional requirements of the
+      proposed system.</para>
+      <para>These are the main information about the product/solution:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Product Vision: describes what the product is (section “Vision
+          of the solution”).
+          <superscript>
+          <xref linkend="error_section" /> cmnt9</superscript>
+          <superscript>
+          <xref linkend="error_section" /> cmnt10</superscript></para>
+        </listitem>
+        <listitem>
+          <para>Project Scope: identifies what portion of the ultimate
+          scientific project the current product/system will address,
+          definition of solution system boundaries. A context diagram could be
+          provided that shows a top-level view of a system and the system’s
+          boundaries (section “Scope”).</para>
+        </listitem>
+        <listitem>
+          <para>Provide clear statements of assumptions (section
+          “Assumptions”).</para>
+        </listitem>
+        <listitem>
+          <para>Functional requirements: It is possible to describe the
+          solution in term of a workflow, a list of functional requirement or a
+          use case (sections 
+          <xref linkend="error_section" /> h.4d2bodt7akfe). List the major
+          features or user capabilities unique to the new product. For
+          non-functional requirements check section 
+          <xref linkend="error_section" /> h.lqcugjv94utp for more details.
+          See section “Description of the workflow/main functional and
+          non-functional requirements”.</para>
+        </listitem>
+        <listitem>
+          <para>Identify the constraints: put limitations on the ability to
+          deliver a solution as envisioned restricting the solution space
+          (section “Constraints”).</para>
+        </listitem>
+      </itemizedlist>
+      <section xml:id="h.4d2bodt7akfe.1">
+        <title>Use cases and system functional requirements</title>
+        <para>A Use Case is a description of system behaviour in response to a
+        request from one actor. We are collecting Use Cases (and related
+        scenarios) starting from scientific requirements to</para>
+        <itemizedlist>
+          <listitem>
+            <para>describe how an actor interacts with the system in terms of
+             functions and workflows of the Physical Science
+            Projects/software library/software framework;</para>
+          </listitem>
+          <listitem>
+            <para>Aim for a concise, specific and comprehensive definition of
+            the requirements anticipating that trade-offs may need to be made
+            if technology does not meet all requirements;</para>
+          </listitem>
+          <listitem>
+            <para>encourage a common understanding of requirements on system
+            behaviour for all the involved stakeholders;</para>
+          </listitem>
+          <listitem>
+            <para>improve communication among WG participants, OPF members and
+            Physical Science community at large;</para>
+          </listitem>
+          <listitem>
+            <para>discover and document issues related to requirements that are
+            not covered by current hw/sw solutions/current technology;</para>
+          </listitem>
+          <listitem>
+            <para>give context to non-functional requirements.</para>
+          </listitem>
+        </itemizedlist>
+      </section>
+      <section xml:id="h.lqcugjv94utp.1">
+        <title>System non-functional requirements</title>
+        <para>Not-exhaustive list of non-functional requirements (TBC):</para>
+        <itemizedlist>
+          <listitem>
+            <para>Quality requirements</para>
+          </listitem>
+          <listitem>
+            <para>Constraints </para>
+          </listitem>
+          <listitem>
+            <para>We should take also into account the reproducibility of
+            the results as a requirements (in particular in parallel computing
+            environment);</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Think about: testable, and or (at least) traceable? Why
+            traceability?</para>
+          </listitem>
+        </itemizedlist>
+      </section>
+    </section>
+    <section xml:id="h.k1sz7cwj362y.1">
+      <title>The system (the solution)</title>
+      <para>The system, for which we collect system requirements could be a
+      workflow or a dataflow (or part of a workflow) of a solution for a
+      scientific project, a software library of a software framework that could
+      be used as part of a workflow or a dataflow.</para>
+    </section>
+    <section xml:id="h.okc3b56431x4.1">
+      <title>In a nutshell</title>
+      <para>With use cases/workflow/list of system requirements we describe a
+      possible workflow/dataflow of a system and/or software library of a
+      scientific project, using the template.</para>
+      <para>The workflow is a view of the functional requirements of the
+      system, with attached system non-functional requirements.</para>
+      <para>A system could be a data analysis system or a software
+      library/framework that covers some system requirements.</para>
+      <para>The proposed solution is a possibile solution, using OPF
+      hardware and software, that implement a system of a scientific project,
+      or that optimize an existing solution, or that optimize the use of
+      software libraries/framework used/developed by the scientific
+      community</para>
+      <para>The proposed solution contributes to achieving the scientific
+      requirements of a scientific project.</para>
+    </section>
+  </section>
+  <section xml:id="h.d31180cwfjew.1">
+    <title>Justifications</title>
+    <para>In this section are provided the reasons for using the proposed
+    method.</para>
+    <section xml:id="h.5an7rpesemtx.1">
+      <title>Requirement inception for a Physical Science project</title>
+      <para>Before system requirements can be analyzed, modeled, or specified
+      they must be gathered through an elicitation process.</para>
+      <para>An effective process of requirement inception (shared between all
+      stakeholders) could contribute and therefore to</para>
+      <itemizedlist>
+        <listitem>
+          <para>understand the workflow, starting with user
+          expectations;</para>
+        </listitem>
+        <listitem>
+          <para>help Physical Science projects maintain costs within a chosen
+          envelope, helping to decide what/which ICT system to build, what the
+          system must do, how it must behave (in the context of the general
+          Physical Science project workflow), the properties it must exhibit,
+          the qualities it must possess, and the constraints that the system
+          and its development must satisfy;</para>
+        </listitem>
+        <listitem>
+          <para>map the functionalities to the scientific requirements.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Physical Science projects are at the corner of the Physical Science
+      (to open new windows in the scientific domain) and for this reason are at
+      the corner of the current technology, or (more common) new technology
+      should be developed to fulfill the requirements. With this in mind, a
+      requirement inception process is a challenge because there are many
+      different problems that the OPFPS members should manage to remove the
+      misunderstanding between scientific and ICT stakeholders:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Problem of scope:</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>the user (scientist/research engineer) specifies too many
+          technical details with the risk to loose the functional aspect of
+          their problem, and this implies a poor understanding of the
+          functional requirements, i.e. of the workflow;</para>
+        </listitem>
+        <listitem>
+          <para>and/or the boundary of the system is not well defined;</para>
+        </listitem>
+        <listitem>
+          <para>to mix functional and non-functional requirements.</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Problem of understanding: some of them could came from</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>the users (scientist/research engineer) is not able to
+          translate his problem domain (because the problem domain is very
+          extended) in a comprehensible way;</para>
+        </listitem>
+        <listitem>
+          <para>the involved stakeholder has a full understanding of his
+          specific problem but do not have a full understanding of the general
+          problem domain;</para>
+        </listitem>
+        <listitem>
+          <para>have trouble communicating needs to the hw/sw
+          developers/vendors,</para>
+        </listitem>
+        <listitem>
+          <para>omit information that is believed to be “obvious”,</para>
+        </listitem>
+        <listitem>
+          <para>specify requirements that conflicts.</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Problem of presumption: Presumptions: an assumption, an an idea
+          that is taken to be true, and often used as the basis for other
+          ideas, although it is not known for certain. In our context this
+          presumption could be made by the scientific stakeholders or by who is
+          collection requirements (WG members), usually when some aspect of the
+          problem domain are not well known or understood.</para>
+        </listitem>
+        <listitem>
+          <para>Requirements volatility: the requirements change over time (see
+          Section 
+          <xref linkend="error_section" /> h.4lpolzhmiyzr).</para>
+        </listitem>
+      </itemizedlist>
+      <para>A Physical Science project has no similar examples that could be
+      followed, due to its uniqueness. The current experiments help us in
+      collecting experience, but sometimes new Physical Science projects are
+      one order of magnitude bigger than current scientific projects (e.g. Big
+      Science Projects).</para>
+      <section xml:id="h.4lpolzhmiyzr.1">
+        <title>Volatility</title>
+        <para>This section is for ICT stakeholders, to understand some aspects
+        of the organisation of the scientific projects.</para>
+        <para>About the volatility, in a Physical Science project the
+        requirements could change over time for many different reasons:</para>
+        <itemizedlist>
+          <listitem>
+            <para>the organizational complexity (and its evolution) is a
+            cause of requirement volatility. Organizational goals, policies and
+            roles of intended end users all may change during the development
+            of the system; to keep this problem under control it is important
+            to identify the right stakeholders within the
+            organisation;</para>
+          </listitem>
+          <listitem>
+            <para>the requirements are the product of the contributions of many
+            individuals, and these individuals often have conflicting needs and
+            goals (different scientific objects within the same project); to
+            keep this under control we have proposed a template in which we try
+            to extract basic information from the scientific projects (using
+            some basic steps of problem analysis);</para>
+          </listitem>
+          <listitem>
+            <para>increasing knowledge during the development: (i) people are
+            learning/will learn new things during the development of the
+            experiment, during prototyping activities or during testing and
+            commissioning phases, and will learn during the operations; (ii)
+            one of the most important cause of requirements volatility is that
+            user needs evolve over time, because the science evolves over time
+            thanks to new scientific discoveries (the advance of science) that
+            could change the scientific objectives (and/or) the workflow of the
+            project itself during the development. We have foreseen an
+            iterative process.</para>
+          </listitem>
+        </itemizedlist>
+      </section>
+    </section>
+    <section xml:id="h.it0ht7pktu33.1">
+      <title>Problem Analysis</title>
+      <para>The problem analysis is for OPFPS members and ICT stakeholders, to
+      better understand the scientific project.</para>
+      <para>Due to the uniqueness of the scientific projects and the complexity
+      of the problem domain, the problem analysis helps to manage the problems
+      of scope and understanding, because they could strongly affect the
+      requirement inception. In addition, the problem analysis could avoid or
+      reduce presumptions (e.g. from OPFPS members that will analyze use
+      cases).</para>
+      <para>The OPFPS members should analyse the information provided by the
+      scientific stakeholders to understand if this is useful to define an
+      effective solution. A key element of this analysis should ensure that
+      “root causes,” not just the symptoms of the problem, are identified and
+      subsequently addressed by the system.</para>
+      <para>Some aspects of the problem analysis of scientific project that
+      could be useful in the OPFPS context are:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Problem definition: ask scientific community to write a problem
+          statement in an agreed format, to provide the context and to identify
+          the real value of a solution;</para>
+        </listitem>
+        <listitem>
+          <para>Try to find underlying causes of a problem to define measurable
+          of a new solution. There is often a problem behind the problem or
+          behind the current solution. It could be important to consists of
+          finding underlying causes that may not be immediately apparent. Some
+          key questions help in this process: why is it not profitable? Poor
+          design? Too expensive? It is important to define which factors
+          contribute to the problem and a way to measure the
+          improvements.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section xml:id="h.i7w45c2bgap.1">
+      <title />
+      <para>
+      <xref linkend="error_section" /> ftnt_ref1 
+      <xref linkend="error_section" /> mailto:andrea.bulgarelli@inaf.it </para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref1I suggest to also highlight the
+      aspect of challenging hardware requirements</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref2Ok</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref3Within OPF a number of people
+      make a strong case about the Foundation not being about solutions and
+      thus being neutral wrt to solutions. This was also an issue raised in the
+      context of a draft version of the WG's charter. I would formulate: Enable
+      ICT stakeholders to provide suitable solutions.</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref4ok</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref5I am not sure that I understand
+      this statement. Is the following paraphrase correct? "to avoid missing
+      any information describing relevant aspects of a workflow."</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref6I agree, thanks</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref7There may be no "current
+      solution" as it is about a future experiment. In general, I would suggest
+      not to use the term "solution" in this context. See next comment.</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref8I fully agree, Thanks to help to
+      clarify these concepts.</para>
+      <para>I have removed any reference to the term "solution"</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref9I have often seen it becoming a
+      mistake that requirements were communicated in terms of anticipated
+      solutions. This limits the design space as the problem specifier tend to
+      have a less good overview on possible solutions.</para>
+      <para>
+      <xref linkend="error_section" /> cmnt_ref10I agree. I have removed this
+      section from the template. Let's scientists specify only
+      requirements</para>
+    </section>
+  </section>
+  <section xml:id="error_section">
+    <title>Conversion Errors</title>
+    <para>This section contains errors that could not be resolved by the
+    mkbook.py program.</para>
+    <para>ftnt1</para>
+    <para></para>
+    <para></para>
+    <para>mailto:opfps@openpowerfoundation.org</para>
+    <para>h.t2f0ahjqjbf7</para>
+    <para>h.t2f0ahjqjbf7</para>
+    <para>h.neyvrmz5e0u7</para>
+    <para>h.neyvrmz5e0u7</para>
+    <para>h.ml4p7h2u5bgd</para>
+    <para>h.ml4p7h2u5bgd</para>
+    <para>h.zhspm95fi9e9</para>
+    <para>h.zhspm95fi9e9</para>
+    <para>h.64nbpuogu2cr</para>
+    <para>h.64nbpuogu2cr</para>
+    <para>h.k597y24tvijd</para>
+    <para>h.k597y24tvijd</para>
+    <para>h.9w8eqfcov7xi</para>
+    <para>h.9w8eqfcov7xi</para>
+    <para>h.fjazhaptp3e8</para>
+    <para>h.fjazhaptp3e8</para>
+    <para>h.x8ybuq41czt2</para>
+    <para>h.x8ybuq41czt2</para>
+    <para>h.1tyskhwshjst</para>
+    <para>h.1tyskhwshjst</para>
+    <para>h.rsgn70bn02ih</para>
+    <para>h.rsgn70bn02ih</para>
+    <para>h.bj00l8vcud7l</para>
+    <para>h.bj00l8vcud7l</para>
+    <para>h.uc5h5eptiqau</para>
+    <para>h.uc5h5eptiqau</para>
+    <para>h.hifw4g34594y</para>
+    <para>h.hifw4g34594y</para>
+    <para>h.ivq40yd8cvjz</para>
+    <para>h.ivq40yd8cvjz</para>
+    <para>h.z8a4r4bndbdc</para>
+    <para>h.z8a4r4bndbdc</para>
+    <para>h.4d2bodt7akfe</para>
+    <para>h.4d2bodt7akfe</para>
+    <para>h.lqcugjv94utp</para>
+    <para>h.lqcugjv94utp</para>
+    <para>h.k1sz7cwj362y</para>
+    <para>h.k1sz7cwj362y</para>
+    <para>h.okc3b56431x4</para>
+    <para>h.okc3b56431x4</para>
+    <para>h.d31180cwfjew</para>
+    <para>h.d31180cwfjew</para>
+    <para>h.5an7rpesemtx</para>
+    <para>h.5an7rpesemtx</para>
+    <para>h.4lpolzhmiyzr</para>
+    <para>h.4lpolzhmiyzr</para>
+    <para>h.it0ht7pktu33</para>
+    <para>h.it0ht7pktu33</para>
+    <para>h.fjazhaptp3e8</para>
+    <para>h.bj00l8vcud7l</para>
+    <para>h.d31180cwfjew</para>
+    <para>cmnt1</para>
+    <para>cmnt2</para>
+    <para>cmnt3</para>
+    <para>cmnt4</para>
+    <para>h.hifw4g34594y</para>
+    <para>h.ivq40yd8cvjz</para>
+    <para>h.z8a4r4bndbdc</para>
+    <para>h.k1sz7cwj362y</para>
+    <para>h.okc3b56431x4</para>
+    <para>h.5an7rpesemtx</para>
+    <para>cmnt5</para>
+    <para>cmnt6</para>
+    <para></para>
+    <para></para>
+    <para>cmnt7</para>
+    <para>cmnt8</para>
+    <para>h.it0ht7pktu33</para>
+    <para>cmnt9</para>
+    <para>cmnt10</para>
+    <para>h.4d2bodt7akfe</para>
+    <para>h.lqcugjv94utp</para>
+    <para>h.4lpolzhmiyzr</para>
+    <para>ftnt_ref1</para>
+    <para>mailto:andrea.bulgarelli@inaf.it</para>
+    <para>cmnt_ref1</para>
+    <para>cmnt_ref2</para>
+    <para>cmnt_ref3</para>
+    <para>cmnt_ref4</para>
+    <para>cmnt_ref5</para>
+    <para>cmnt_ref6</para>
+    <para>cmnt_ref7</para>
+    <para>cmnt_ref8</para>
+    <para>cmnt_ref9</para>
+    <para>cmnt_ref10</para>
+  </section>
+</chapter>

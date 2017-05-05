@@ -1,0 +1,196 @@
+<!--
+  Copyright (c) 2016 OpenPOWER Foundation
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+-->
+
+<!-- The following entity variable is used to reflect the version of the 
+     template document master used for building a document.  This value
+     should be set by copy of the of template used to create a new
+     document and should not be changed.  Use of this value is in
+     in the Abstract section in this file. --> 
+
+<chapter version="5.0" xml:lang="en" xmlns="http://docbook.org/ns/docbook"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xl="http://www.w3.org/1999/xlink"
+xml:id="h.d31180cwfjew.1">
+  <title>Justifications</title>
+  <para>In this section are provided the reasons for using the proposed
+  method.</para>
+  <section xml:id="h.5an7rpesemtx.1">
+    <title>Requirement inception for a Physical Science project</title>
+    <para>Before system requirements can be analyzed, modeled, or specified
+    they must be gathered through an elicitation process.</para>
+    <para>An effective process of requirement inception (shared between all
+    stakeholders) could contribute and therefore to</para>
+    <itemizedlist>
+      <listitem>
+        <para>understand the workflow, starting with user
+        expectations;</para>
+      </listitem>
+      <listitem>
+        <para>help Physical Science projects maintain costs within a chosen
+        envelope, helping to decide what/which ICT system to build, what the
+        system must do, how it must behave (in the context of the general
+        Physical Science project workflow), the properties it must exhibit,
+        the qualities it must possess, and the constraints that the system
+        and its development must satisfy;</para>
+      </listitem>
+      <listitem>
+        <para>map the functionalities to the scientific requirements.</para>
+      </listitem>
+    </itemizedlist>
+    <para>Physical Science projects are at the corner of the Physical Science
+    (to open new windows in the scientific domain) and for this reason are at
+    the corner of the current technology, or (more common) new technology
+    should be developed to fulfill the requirements. With this in mind, a
+    requirement inception process is a challenge because there are many
+    different problems that the OPFPS members should manage to <emphasis role="bold">remove the
+    misunderstanding between scientific and ICT stakeholders</emphasis>:</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para><emphasis>Problem of scope:</emphasis></para>
+    	<itemizedlist>
+    	  <listitem>
+    	    <para>the user (scientist/research engineer) specifies too many
+    	    technical details with the risk to loose the functional aspect of
+    	    their problem, and this implies a poor understanding of the
+    	    functional requirements, i.e. of the workflow;</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>and/or the boundary of the system is not well defined;</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>to mix functional and non-functional requirements.</para>
+    	  </listitem>
+    	</itemizedlist>
+      </listitem>
+      <listitem>
+        <para><emphasis>Problem of understanding:</emphasis> some of them could came from</para>
+    	<itemizedlist>
+    	  <listitem>
+    	    <para>the users (scientist/research engineer) is not able to
+    	    translate his problem domain (because the problem domain is very
+    	    extended) in a comprehensible way;</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>the involved stakeholder has a full understanding of his
+    	    specific problem but do not have a full understanding of the general
+    	    problem domain;</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>have trouble communicating needs to the hw/sw
+    	    developers/vendors,</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>omit information that is believed to be “obvious”,</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>specify requirements that conflicts.</para>
+    	  </listitem>
+    	</itemizedlist>
+      </listitem>
+      <listitem>
+        <para><emphasis>Problem of presumption:</emphasis> Presumptions: an assumption, an an idea
+        that is taken to be true, and often used as the basis for other
+        ideas, although it is not known for certain. In our context this
+        presumption could be made by the scientific stakeholders or by who is
+        collection requirements (WG members), usually when some aspect of the
+        problem domain are not well known or understood.</para>
+      </listitem>
+      <listitem>
+        <para><emphasis>Requirements volatility:</emphasis> the requirements change over time (see
+        Section 
+        <xref linkend="h.4lpolzhmiyzr.1" /> ).</para>
+      </listitem>
+    </itemizedlist>
+    <para>A Physical Science project has no similar examples that could be
+    followed, due to its uniqueness. The current experiments help us in
+    collecting experience, but sometimes new Physical Science projects are
+    one order of magnitude bigger than current scientific projects (e.g. Big
+    Science Projects).</para>
+    <section xml:id="h.4lpolzhmiyzr.1">
+      <title>Volatility</title>
+      <para>This section is for ICT stakeholders, to understand some aspects
+      of the organisation of the scientific projects.</para>
+      <para>About the <emphasis role="bold">volatility</emphasis>, in a Physical Science project the
+      requirements could change over time for many different reasons:</para>
+      <itemizedlist>
+        <listitem>
+          <para>the <emphasis role="bold">organizational complexity</emphasis> (and its evolution) is a
+          cause of requirement volatility. Organizational goals, policies and
+          roles of intended end users all may change during the development
+          of the system; to keep this problem under control it is important
+          to identify the right <emphasis role="bold">stakeholders</emphasis> within the
+          organisation;</para>
+        </listitem>
+        <listitem>
+          <para>the requirements are the product of the contributions of many
+          individuals, and these individuals often have conflicting needs and
+          goals (different scientific objects within the same project); to
+          keep this under control we have proposed a template in which we try
+          to extract basic information from the scientific projects (using
+          some basic steps of <emphasis role="bold">problem analysis</emphasis>);</para>
+        </listitem>
+        <listitem>
+          <para>increasing knowledge during the development: (i) people are
+          learning/will learn new things during the development of the
+          experiment, during prototyping activities or during testing and
+          commissioning phases, and will learn during the operations; (ii)
+          one of the most important cause of requirements volatility is that
+          user needs evolve over time, because the science evolves over time
+          thanks to new scientific discoveries (the advance of science) that
+          could change the scientific objectives (and/or) the workflow of the
+          project itself during the development. We have foreseen an
+          <emphasis role="bold">iterative process</emphasis>.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+  <section xml:id="h.it0ht7pktu33.1">
+    <title>Problem Analysis</title>
+    <para>The problem analysis is for OPFPS members and ICT stakeholders, to
+    better understand the scientific project.</para>
+    <para>Due to the uniqueness of the scientific projects and the complexity
+    of the problem domain, the problem analysis helps to manage the problems
+    of scope and understanding, because they could strongly affect the
+    requirement inception. In addition, the problem analysis could avoid or
+    reduce presumptions (e.g. from OPFPS members that will analyze use
+    cases).</para>
+    <para>The OPFPS members should analyse the information provided by the
+    scientific stakeholders to understand if this is useful to define an
+    effective solution. A key element of this analysis should ensure that
+    “root causes,” not just the symptoms of the problem, are identified and
+    subsequently addressed by the system.</para>
+    <para>Some aspects of the problem analysis of scientific project that
+    could be useful in the OPFPS context are:</para>
+    <itemizedlist>
+      <listitem>
+        <para>Problem definition: ask scientific community to write a problem
+        statement in an agreed format, to provide the context and to identify
+        the real value of a solution;</para>
+      </listitem>
+      <listitem>
+        <para>Try to find underlying causes of a problem to define measurable
+        of a new solution. There is often a problem behind the problem or
+        behind the current solution. It could be important to consists of
+        finding underlying causes that may not be immediately apparent. Some
+        key questions help in this process: why is it not profitable? Poor
+        design? Too expensive? It is important to define which factors
+        contribute to the problem and a way to measure the
+        improvements.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</chapter>

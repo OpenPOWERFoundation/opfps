@@ -1,0 +1,86 @@
+<!--
+  Copyright (c) 2016 OpenPOWER Foundation
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+-->
+
+<!-- The following entity variable is used to reflect the version of the 
+     template document master used for building a document.  This value
+     should be set by copy of the of template used to create a new
+     document and should not be changed.  Use of this value is in
+     in the Abstract section in this file. --> 
+
+<chapter version="5.0" xml:lang="en" xmlns="http://docbook.org/ns/docbook"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xl="http://www.w3.org/1999/xlink"
+xml:id="h.fjazhaptp3e8.1">
+  <title>The context</title>
+  <section xml:id="h.x8ybuq41czt2.1">
+    <title>Physical Science</title>
+    <para>Physical Science is any science concerned with nonliving matter,
+    energy, and the physical properties of the Universe, such as physics,
+    chemistry, astronomy, and geology.</para>
+    <para>In this context, the OPFPS WG cover the following aspects:</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>Needs of Big Science Projects</para>
+      </listitem>
+      <listitem>
+        <para>Needs of experiments at laboratory level</para>
+      </listitem>
+      <listitem>
+        <para>Software frameworks</para>
+      </listitem>
+      <listitem>
+        <para>Software libraries</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="h.1tyskhwshjst.1">
+    <title>OPFPS workflow</title>
+    <para>A basic OPFPS workflow could be summarized as the following:</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>requirement inception (eliciting requirements), to collect
+        functional requirements (e.g. as use cases) and related
+        non-functional requirements from scientific community (from
+        scientific stakeholders);</para>
+      </listitem>
+      <listitem>
+        <para>requirement analysis, determining and refining the system
+        requirements, to provide a coherent view of the use cases, and to
+        resolve misunderstanding (from OPFPS members);</para>
+      </listitem>
+      <listitem>
+        <para>system modelling: deriving a logical workflow/dataflow model of
+        the system, to derive commonalities between different use cases (from
+        OPFPS members);</para>
+      </listitem>
+      <listitem>
+        <para>provide a solution (from ICT stakeholders).</para>
+      </listitem>
+    </itemizedlist>
+    <para>The proposed process is iterative, so that reference solutions can
+    be reworked in the light of increased knowledge. Iteration means that the
+    scientific stakeholders should provide use cases and non-functional
+    requirements and refine them based on feedbacks received by other
+    stakeholders or by the OPFPS members.</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>The OPFPS members are available to update the common workflow
+        for each new use case that is added or updated.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</chapter>

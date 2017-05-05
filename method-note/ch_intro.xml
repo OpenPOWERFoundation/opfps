@@ -1,0 +1,179 @@
+<!--
+  Copyright (c) 2016 OpenPOWER Foundation
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+-->
+
+<!-- The following entity variable is used to reflect the version of the 
+     template document master used for building a document.  This value
+     should be set by copy of the of template used to create a new
+     document and should not be changed.  Use of this value is in
+     in the Abstract section in this file. --> 
+
+<chapter version="5.0" xml:lang="en" xmlns="http://docbook.org/ns/docbook"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xl="http://www.w3.org/1999/xlink"
+xml:id="h.t2f0ahjqjbf7.1">
+  <title>Introduction</title>
+  <section xml:id="h.neyvrmz5e0u7.1">
+    <title>Purpose</title>
+    <para>The main purpose of this Note is to define a method and a
+    template to collect Physical Science use cases from scientists and
+    research engineers working on Physical Science projects in the context
+    and within the scope of the OpenPOWER Foundation for Physical Science
+    Workgroup.</para>
+    <para>An effective method (shared between all stakeholders) could
+    contribute to</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>understand the workflow, starting with user
+        expectations;</para>
+      </listitem>
+      <listitem>
+        <para>help Physical Science projects maintain costs within a chosen
+        envelope;</para>
+      </listitem>
+      <listitem>
+        <para>map the functionalities to the scientific requirements;</para>
+      </listitem>
+      <listitem>
+        <para>remove the misunderstanding between scientific community and
+        ICT stakeholders.</para>
+      </listitem>
+    </itemizedlist>
+    <para> <xref linkend="h.fjazhaptp3e8.1" /> describes the context
+    and the main OPFPS workflow. The proposed method is a template reported
+    in <xref linkend="h.bj00l8vcud7l.1" />  and justified in
+    <xref linkend="h.d31180cwfjew.1" /> .</para>
+  </section>
+  <section xml:id="h.ml4p7h2u5bgd.1">
+    <title>Scope</title>
+    <para>This OPFPS WG should contribute, with the foreseen deliverables
+    (WP2, WP3 and WP4) (see [1]), in a more effective process of managing the
+    increasing complexity of a Physical Science projects, because this could
+    help to take the ICT system under control or to find new solutions that
+    are at the corner of the ICT industry.</para>
+  </section>
+  <section xml:id="h.zhspm95fi9e9.1">
+    <title>Stakeholders identification</title>
+    <para>This section describes the intended audience of this Note and of
+    the OPFPS WG.</para>
+    <para>Stakeholders are individuals, groups, organizations who are
+    actively involved in the scientific project, are affected by its
+    outcome or are able to influence its outcome. All stakeholders could be
+    OPFPS members. The stakeholders are:</para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>Physical Science community: stakeholders that should provide
+        requirements:</para>
+    	<itemizedlist spacing="compact">
+    	  <listitem>
+    	    <para>Scientists</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>Research engineers</para>
+    	  </listitem>
+    	</itemizedlist>
+      </listitem>
+      <listitem>
+        <para>ICT community: stakeholders that could provide a
+        solution</para>
+      </listitem>
+      <listitem>
+        <para>WG participants: members of both community that should provide
+        support in collecting, analyzing and categorizing
+        requirements.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="h.64nbpuogu2cr.1">
+    <title>Acronyms</title>
+    <para>OPF = OpenPOWER Foundation</para>
+    <para>OPFPS = OpenPOWER Foundation for Physical Science</para>
+    <para>WG = Workgroup</para>
+  </section>
+  <section xml:id="h.k597y24tvijd.1">
+    <title>Definitions</title>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para><emphasis role="bold">Problem analysis:</emphasis> Problem analysis involves identifying the
+        overriding problem and establishing the causes and effects related to
+        that problem.</para>
+      </listitem>
+      <listitem>
+        <para><emphasis role="bold">Scientific objectives:</emphasis> The scientific objectives are the goals
+        of a scientific project. The scientific requirements are needed to
+        reach the scientific objectives.</para>
+      </listitem>
+      <listitem>
+        <para><emphasis role="bold">Scientific requirements</emphasis> A) are high-level statements that
+        are needed to reach the scientific objectives/goals of the scientific
+        project (and of the scientific organisation that manage the project).
+        They describe the results that the project will achieve, and the
+        metrics which will be used to measure its success. Scientific
+        requirements must be achieved to provide value for the scientific
+        project.  B) A requirement of a physical science experiment
+        described in terms of the parameters to perform science (e.g. minimum
+        sensitivity of a telescope, minimum angular resolution). </para>
+    	<itemizedlist spacing="compact">
+    	  <listitem>
+    	    <para>Example: we need to observe N celestial objects in T
+    	    time.</para>
+    	  </listitem>
+    	  <listitem>
+    	    <para>Example: we need to repoint the telescope in 30 seconds.</para>
+    	  </listitem>
+    	</itemizedlist>
+      </listitem>
+      <listitem>
+        <para><emphasis role="bold">System requirements:</emphasis> requirements of the HW/SW solution, i.e.
+        the functional and non-functional requirements of the proposed
+        system. Functional requirements define a function or a behaviour
+        of a system (a list of the major features or user capabilities unique
+        to the product). Non-functional requirements impose qualities
+        and constraints on the design or implementation (such as performance,
+        security, or reliability).</para>
+      </listitem>
+      <listitem>
+        <para><emphasis role="bold">System:</emphasis> the solution that should be proposed/developed.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="h.9w8eqfcov7xi.1">
+    <title>Reference</title>
+    <para>[1] OPFPS charter</para>
+    <para>[2] SEI, “A Framework for Software Product Line Practice, Version
+    5.0”, 2012,
+    http://www.sei.cmu.edu/productlines/frame_report/req_eng.htm</para>
+    <para>[3] Alistair Cockburn, “Writing Effective Use Cases”, Addison
+    Wesley, 2000</para>
+    <para>[4] M. Christel, K. Chang, “Issues in Requirements Elicitation”,
+    CMU/SEI-92-TR-012, 1992</para>
+    <para>[5] Macaulay, Linda, Fowler, Chris, Kirby, Mark, and Hutt, Andrew.
+    USTM: A New Approach to Requirements Specification. Interacting with
+    Computers 2(1):92-118, April 1990.</para>
+    <para>[6] Robin F. Goldsmith, JD, “Conventional Requirements Model Flaw
+    Misses REAL Business Requirements”, 2007, available at 
+    <link xl:href="https://www.google.com/url?q=http://www.gopromanagement.com&amp;sa=D&amp;ust=1493996251691000&amp;usg=AFQjCNFeYz4qDqEpGVfWdbi5gyI1Xp3X-A">
+
+      <citetitle>
+      https://www.google.com/url?q=http://www.gopromanagement.com&amp;sa=D&amp;ust=1493996251691000&amp;usg=AFQjCNFeYz4qDqEpGVfWdbi5gyI1Xp3X-A</citetitle>
+    </link> </para>
+    <para>[7] Robin F. Goldsmith, JD, “BAs Will Falter Until They Learn to
+    Discover REAL, Business Requirements”, IEEE 17th Requirements Engineering
+    Conference (RE’09), 2009</para>
+    <para>[8] Dean Leffingwell, Don Widrig, “Managing Software Requirements:
+    A Use Case Approach”, 2nd Edition, 2003</para>
+  </section>
+</chapter>
