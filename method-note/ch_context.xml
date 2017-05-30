@@ -34,16 +34,19 @@ xml:id="h.fjazhaptp3e8.1">
     <para>In this context, the OPFPS WG cover the following aspects:</para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>Needs of Big Science Projects</para>
+        <para>Needs of Big Science Projects;</para>
       </listitem>
       <listitem>
-        <para>Needs of experiments at laboratory level</para>
+        <para>Needs of experiments at laboratory level;</para>
       </listitem>
       <listitem>
-        <para>Software frameworks</para>
+        <para>Software frameworks;</para>
       </listitem>
       <listitem>
-        <para>Software libraries</para>
+        <para>Software libraries;</para>
+      </listitem>
+      <listitem>
+        <para>Challenging hardware requirements.</para>
       </listitem>
     </itemizedlist>
   </section>
@@ -68,18 +71,30 @@ xml:id="h.fjazhaptp3e8.1">
         OPFPS members);</para>
       </listitem>
       <listitem>
-        <para>provide a solution (from ICT stakeholders).</para>
+        <para>enable ICT stakeholders to provide suitable solution.</para>
       </listitem>
     </itemizedlist>
-    <para>The proposed process is iterative, so that reference solutions can
-    be reworked in the light of increased knowledge. Iteration means that the
-    scientific stakeholders should provide use cases and non-functional
-    requirements and refine them based on feedbacks received by other
-    stakeholders or by the OPFPS members.</para>
+    <para>This Note covers the requirement inception phase.</para>
+    </section>
+   <section xml:id="h.1tyskhwshjst.2">
+    <title>An iterative process</title>
+    <para>The proposed process is iterative, so that reference solutions can be reworked in the light of increased knowledge and to take under control the problems listed in <xref linkend="h.5an7rpesemtx.1" />. Iteration means that the scientific stakeholders should provide use cases and non-functional requirements and refine them based on feedbacks received by other stakeholders and by the OPFPS members. With an iterative process that will involve all stakeholders, those mistaken assumptions can be detected and corrected.</para>
+    <para>
+    The OPFPS members are available to update the common workflow for each new use case that is added or updated.
+    </para>
+    <para>Iterations will be made also on the proposed methodology: </para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>The OPFPS members are available to update the common workflow
-        for each new use case that is added or updated.</para>
+        <para>defines a methodology (as the methodology proposed in this document);</para>
+      </listitem>
+      <listitem>
+        <para>apply methodology to concrete use case;</para>
+      </listitem>
+      <listitem>
+        <para>review approach and update methodology;</para>
+      </listitem>
+       <listitem>
+        <para>apply updated methodology to next use cases.</para>
       </listitem>
     </itemizedlist>
   </section>
