@@ -32,7 +32,7 @@
   xml:id="bk_main">
 
     <!-- TODO: Pick a Title for the new document -->
-    <title>Collecting Usecase Information</title>
+    <title>Collecting Use Cases Information</title>
     <!-- TODO: Either add a subtitle or remove the following line -->
     <subtitle>Method and Template</subtitle>
 
@@ -40,7 +40,7 @@
     <author>
       <!-- TODO: Set to the appropriate owning Work Group, not an individual -->
       <personname>
-          OpenPOWER Workgroup for Physical Science
+          OpenPOWER Foundation for Physical Science Workgroup 
       </personname>
       <!-- TODO: Set email address of document author to the Work Group Chair -->
       <email>opfps-chair@openpowerfoundation.org</email>
@@ -54,7 +54,7 @@
       <holder>OpenPOWER Foundation</holder>
     </copyright>
     <!-- TODO: Set the correct document releaseinfo -->
-    <releaseinfo>Revision 0.2</releaseinfo>
+    <releaseinfo>Revision 0.3</releaseinfo>
     <productname>OpenPOWER</productname>
     <pubdate/>
 
@@ -62,8 +62,8 @@
            "apache2" for an Apache V2 license or 
            "opfExternal" for an official OpenPOWER Foundation external license text.
          If you don't know which one to select, change to "opfExternal" and ask your TSC representative. -->
-    <!--legalnotice role="apache2"-->
-    <legalnotice role="opfExternal">
+    <legalnotice role="apache2">
+    <!--legalnotice role="opfExternal"-->
 
       <annotation>
           <remark>Copyright details are filled in by the template.</remark>
@@ -87,6 +87,17 @@
 
     <revhistory>
       <!-- TODO: Set the initial version information and clear any old information out -->
+      <revision>
+          <date>2017-05-29</date>
+          <revdescription>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>Version 0.3: Discussion during the OPFPS Coordination meeting 2, May 9, 2017. Some issues around two subsections: (1) “Underlying causes of a problem”: it is not clear what the user should specify, and the risk is that the user starts to think about the solution in a “problem definition” section. Dirk and Marilena propose the title “Known challenging and risks”, to make clear that sometimes there are challenges and risks behind the problem. It could be important for finding them that may not be immediately apparent for an external stakeholder.
+(2) In the subsection “scope“ it must be much clear that the user should provide just a summary. Dirk proposes to rename the section in “Outline of the scope”</para>
+              </listitem>
+            </itemizedlist>
+          </revdescription>
+      </revision>
       <revision>
           <date>2017-05-05</date>
           <revdescription>
