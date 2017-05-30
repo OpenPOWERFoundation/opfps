@@ -30,7 +30,7 @@ xml:id="h.d31180cwfjew.1">
   method.</para>
   <section xml:id="h.5an7rpesemtx.1">
     <title>Requirement inception for a Physical Science project</title>
-    <para>Before system requirements can be analyzed, modeled, or specified
+    <para>Before system requirements can be analyzed, modeled, or specified,
     they must be gathered through an elicitation process.</para>
     <para>An effective process of requirement inception (shared between all
     stakeholders) could contribute and therefore to</para>
@@ -42,7 +42,7 @@ xml:id="h.d31180cwfjew.1">
       <listitem>
         <para>help Physical Science projects maintain costs within a chosen
         envelope, helping to decide what/which ICT system to build, what the
-        system must do, how it must behave (in the context of the general
+        system must do, how it must behave (in the context of a general
         Physical Science project workflow), the properties it must exhibit,
         the qualities it must possess, and the constraints that the system
         and its development must satisfy;</para>
@@ -60,11 +60,11 @@ xml:id="h.d31180cwfjew.1">
     misunderstanding between scientific and ICT stakeholders</emphasis>:</para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para><emphasis>Problem of scope:</emphasis></para>
+        <para><emphasis>The problem of scope:</emphasis></para>
     	<itemizedlist>
     	  <listitem>
     	    <para>the user (scientist/research engineer) specifies too many
-    	    technical details with the risk to loose the functional aspect of
+    	    technical details with the risk to lose the functional aspect of
     	    their problem, and this implies a poor understanding of the
     	    functional requirements, i.e. of the workflow;</para>
     	  </listitem>
@@ -77,12 +77,10 @@ xml:id="h.d31180cwfjew.1">
     	</itemizedlist>
       </listitem>
       <listitem>
-        <para><emphasis>Problem of understanding:</emphasis> some of them could came from</para>
+        <para><emphasis>The problem of understanding:</emphasis> some of them could come from</para>
     	<itemizedlist>
     	  <listitem>
-    	    <para>the users (scientist/research engineer) is not able to
-    	    translate his problem domain (because the problem domain is very
-    	    extended) in a comprehensible way;</para>
+    	    <para>the users (scientist/research engineer) is not able to translate his problem domain <phrase revisionflag="changed">(because the problem domain covers too many areas of knowledge)</phrase> in a comprehensible way;</para>
     	  </listitem>
     	  <listitem>
     	    <para>the involved stakeholder has a full understanding of his
@@ -90,23 +88,23 @@ xml:id="h.d31180cwfjew.1">
     	    problem domain;</para>
     	  </listitem>
     	  <listitem>
-    	    <para>have trouble communicating needs to the hw/sw
-    	    developers/vendors,</para>
+    	    <para>have trouble communicating needs to the hardware/software
+    	    developers/vendors;</para>
     	  </listitem>
     	  <listitem>
-    	    <para>omit information that is believed to be “obvious”,</para>
+    	    <para>omit information that is believed to be “obvious”;</para>
     	  </listitem>
     	  <listitem>
-    	    <para>specify requirements that conflicts.</para>
+    	    <para>specify requirements that conflict.</para>
     	  </listitem>
     	</itemizedlist>
       </listitem>
       <listitem>
-        <para><emphasis>Problem of presumption:</emphasis> Presumptions: an assumption, an an idea
+        <para><emphasis>The problem of presumption:</emphasis> Presumptions: an assumption, an idea
         that is taken to be true, and often used as the basis for other
-        ideas, although it is not known for certain. In our context this
+        ideas, although it is not known for certain. In our context, this
         presumption could be made by the scientific stakeholders or by who is
-        collection requirements (WG members), usually when some aspect of the
+        collecting requirements, usually when some aspect of the
         problem domain are not well known or understood.</para>
       </listitem>
       <listitem>
@@ -129,7 +127,7 @@ xml:id="h.d31180cwfjew.1">
       <itemizedlist>
         <listitem>
           <para>the <emphasis role="bold">organizational complexity</emphasis> (and its evolution) is a
-          cause of requirement volatility. Organizational goals, policies and
+          cause of requirement volatility. Organizational goals, policies, and
           roles of intended end users all may change during the development
           of the system; to keep this problem under control it is important
           to identify the right <emphasis role="bold">stakeholders</emphasis> within the
@@ -146,12 +144,12 @@ xml:id="h.d31180cwfjew.1">
         <listitem>
           <para>increasing knowledge during the development: (i) people are
           learning/will learn new things during the development of the
-          experiment, during prototyping activities or during testing and
+          experiment, during prototyping activities or testing and
           commissioning phases, and will learn during the operations; (ii)
-          one of the most important cause of requirements volatility is that
+          one of the most important causes of requirements volatility is that
           user needs evolve over time, because the science evolves over time
           thanks to new scientific discoveries (the advance of science) that
-          could change the scientific objectives (and/or) the workflow of the
+          could change the scientific objectives and/or the workflow of the
           project itself during the development. We have foreseen an
           <emphasis role="bold">iterative process</emphasis>.</para>
         </listitem>
@@ -173,7 +171,7 @@ xml:id="h.d31180cwfjew.1">
     effective solution. A key element of this analysis should ensure that
     “root causes,” not just the symptoms of the problem, are identified and
     subsequently addressed by the system.</para>
-    <para>Some aspects of the problem analysis of scientific project that
+    <para>Some aspects of the problem analysis of a scientific project that
     could be useful in the OPFPS context are:</para>
     <itemizedlist>
       <listitem>

@@ -48,7 +48,7 @@ xml:id="h.t2f0ahjqjbf7.1">
         <para>map the functionalities to the scientific requirements;</para>
       </listitem>
       <listitem>
-        <para>remove the misunderstanding between scientific community and
+        <para>remove the misunderstanding between the scientific community and
         ICT stakeholders.</para>
       </listitem>
     </itemizedlist>
@@ -60,7 +60,7 @@ xml:id="h.t2f0ahjqjbf7.1">
   <section xml:id="h.ml4p7h2u5bgd.1">
     <title>Scope</title>
     <para>This OPFPS WG should contribute, with the foreseen deliverables
-    (WP2, WP3 and WP4) (see [1]), in a more effective process of managing the
+    (WP2, WP3, and WP4) (see [1]), in a more effective process of managing the
     increasing complexity of a Physical Science projects, because this could
     help to take the ICT system under control or to find new solutions that
     are at the corner of the ICT industry.</para>
@@ -71,28 +71,28 @@ xml:id="h.t2f0ahjqjbf7.1">
     the OPFPS WG.</para>
     <para>Stakeholders are individuals, groups, organizations who are
     actively involved in the scientific project, are affected by its
-    outcome or are able to influence its outcome. All stakeholders could be
-    OPFPS members. The stakeholders are:</para>
+    outcome or can influence its outcome. All stakeholders could be
+    OPFPS members, <phrase revisionflag="added"> but the participation is open also to not-OPF members</phrase>. The stakeholders are:</para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>Physical Science community: stakeholders that should provide
+        <para>physical Science community: stakeholders that should provide
         requirements:</para>
     	<itemizedlist spacing="compact">
     	  <listitem>
-    	    <para>Scientists</para>
+    	    <para>scientists;</para>
     	  </listitem>
     	  <listitem>
-    	    <para>Research engineers</para>
+    	    <para>research engineers;</para>
     	  </listitem>
     	</itemizedlist>
       </listitem>
       <listitem>
         <para>ICT community: stakeholders that could provide a
-        solution</para>
+        solution;</para>
       </listitem>
       <listitem>
         <para>WG participants: members of both community that should provide
-        support in collecting, analyzing and categorizing
+        support for collecting, analyzing and categorizing
         requirements.</para>
       </listitem>
     </itemizedlist>
@@ -119,7 +119,7 @@ xml:id="h.t2f0ahjqjbf7.1">
       <listitem>
         <para><emphasis role="bold">Scientific requirements</emphasis> A) are high-level statements that
         are needed to reach the scientific objectives/goals of the scientific
-        project (and of the scientific organisation that manage the project).
+        project (and of the scientific organisation that manages the project).
         They describe the results that the project will achieve, and the
         metrics which will be used to measure its success. Scientific
         requirements must be achieved to provide value for the scientific

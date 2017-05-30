@@ -28,30 +28,30 @@ xml:id="h.bj00l8vcud7l.1">
   <title>Requirement inception method</title>
   <section xml:id="h.uc5h5eptiqau.1">
     <title>Method</title>
-    <para>Two main steps are foreseen:</para>
+    <para><phrase revisionflag="changed">Requirement inception is the collection of use cases from the scientific community. Two main steps are foreseen</phrase>:</para>
     <itemizedlist>
       <listitem>
-        <para>Description of the scientific problem and related scientific
-        requirements: In this context, the WG asks scientific stakeholders to
+        <para><emphasis role='bold'>Description of the scientific problem and related scientific
+        requirements.</emphasis> In this context, the WG asks scientific stakeholders to
         provide an overview/summary of their problem (with a short
         description of the scientific objectives), and to provide scientific
         requirements that could be measurable; this helps to identify the
-        scientific requirements for which a possible HW/SW solution has the
+        scientific requirements for which a possible hardware/software solution has the
         greatest impact. The main purpose is to provide a real value of the
         proposed solution to the users;</para>
       </listitem>
       <listitem>
-        <para>Definition of use cases and identification of system
-        requirements (functional and non-functional) that are used as input
+        <para><emphasis role='bold'>Definition of use cases and identification of system
+        requirements</emphasis> (functional and non-functional) that are used as input
         to define a solution.</para>
       </listitem>
     </itemizedlist>
-    <para>The main purpose is to identify system functional and system
-    non-functional requirements that provide real value for the
-    scientific project, i.e. to help to fulfill scientific
-    requirements. System functional requirements define a function
-    or a behaviour of a system. System non-functional
-    requirements impose qualities and constraints on the design or
+    <para>The main purpose of this method is to identify <emphasis role='bold'>system functional and system
+    non-functional requirements</emphasis> that provide real value for the
+    scientific project, i.e. to help to fulfill <emphasis role='bold'>scientific
+    requirements</emphasis>. <emphasis>System functional requirements</emphasis> define a function
+    or a behaviour of a system. <emphasis>System non-functional
+    requirements</emphasis> impose qualities and constraints on the design or
     implementation of the system (such as performance, security, or
     reliability).</para>
     <para>In <xref linkend="h.hifw4g34594y.1" /> we report the
@@ -59,37 +59,36 @@ xml:id="h.bj00l8vcud7l.1">
     <xref linkend="h.ivq40yd8cvjz.1" /> , 
     <xref linkend="h.z8a4r4bndbdc.1" />  and 
     <xref linkend="h.k1sz7cwj362y.1" /> report a
-    justification of the template.  
+    detailed description of the template.  
     <xref linkend="h.okc3b56431x4.1" /> is a summary.</para>
   </section>
   <section xml:id="h.hifw4g34594y.1">
     <title>The template</title>
     <para>Scientists, research engineers, hardware and software developers
     and vendors do not have a common language and terms; all WG participants
-    need details and guidance that organise the information in a uniform way.
-    For the purpose of this work the use cases must be readable by all
+    need details and guidance to organise the information in a uniform way.
+    For the purpose of this work, the use cases must be readable by all
     involved stakeholders.</para>
-    <para>In this section we propose a template to collect Physical
-    Science use cases from scientific stakeholders. This template could
+    <para>In this section, we propose a <emphasis role='bold'>template to collect Physical
+    Science use cases</emphasis> from <emphasis role='bold'>scientific stakeholders</emphasis>. This template could
     help to collect problem statements and solution requirements. With
-    this template we will help stakeholders to extract useful information
-    from their “problem” to better understand:</para>
+    this template we will help stakeholders to extract useful information:</para>
     <orderedlist>
       <listitem>
-        <para>which scientific requirement the proposed solution should
-        fulfill and</para>
+        <para>to better understand which scientific requirement the proposed solution should
+        fulfill;</para>
       </listitem>
       <listitem>
         <para>to better identify use cases/workflows/functional requirements
         and the context;</para>
       </listitem>
       <listitem>
-        <para>to reduce problem of scope, understanding and presumptions
+        <para>to reduce problem of scope, understanding, and presumptions
         (check Section 
         <xref linkend="h.d31180cwfjew.1"/> );</para>
       </listitem>
       <listitem>
-        <para>to avoid to omit information that is mandatory to extract a
+        <para>to avoid to omit information that is mandatory to extract 
         workflows;</para>
       </listitem>
       <listitem>
@@ -121,7 +120,7 @@ xml:id="h.bj00l8vcud7l.1">
 	    <row>
               <entry><para>Scientific <emphasis role="bold">objectives</emphasis>
                 </para></entry>
-              <entry><para>Write some short statement about the scientific objectives of the scientific 
+              <entry><para>Write some short statements about the scientific objectives of the scientific 
 	      project for which the stakeholders want to resolve a problem.</para>
 	      <para>This section is useful to put the scientific project under analysis in the 
 	      general context. Define objectives, not requirements.
@@ -134,7 +133,7 @@ xml:id="h.bj00l8vcud7l.1">
 		<para>Write a <emphasis role="bold">problem statement</emphasis>. 
 		  Statement should include</para>
 		<itemizedlist spacing="compact">
-		  <listitem><para>What the problem is for the scientific project</para></listitem>
+		  <listitem><para>What is the problem for the scientific project?</para></listitem>
 		  <listitem><para>Who is affected by it?</para></listitem>
 		  <listitem><para>What is the impact of this problem on the scientific project?</para></listitem>
 		  <listitem><para>Is there a proposed or a current (in-operation) solution?</para></listitem>
@@ -151,31 +150,57 @@ xml:id="h.bj00l8vcud7l.1">
               </entry>
 	    </row>
 	    <row>
-              <entry><para>Underlying causes of a <emphasis role="bold">problem</emphasis>
+              <entry><para>Known <emphasis role="bold">challenging</emphasis> and <emphasis role="bold">risks</emphasis>
                 </para></entry>
-              <entry><para>Sometimes there is a problem behind the problem. It could be important 
-	      to consists of finding underlying causes that may not be immediately apparent.</para>
-	      <para>It is important to define which factors contribute to the problem. 
+              <entry><para>Sometimes there are challenges and risks behind the problem. It could be important for finding them that may not be immediately apparent for an external stakeholder.
+</para>
+	      <para>It is important to define which factors contribute to the challenging and risks.
                 </para></entry>
 	    </row>
 	    <row>
 	      <?dbhtml bgcolor="#FFEAC4" ?><?dbfo bgcolor="#FFEAC4" ?>
               <entry namest="c1" nameend="c2">
 		<para><emphasis role="bold">System requirements of the solution 
-		(a product/HW-SW solution)</emphasis>
+		(a product/hardware-software solution)</emphasis>
                 </para></entry>
 	    </row>
 	    <row>
-              <entry><para><emphasis role="bold">Scope</emphasis>
+              <entry><para>Outline of the <emphasis role="bold">scope</emphasis>
                 </para></entry>
-              <entry><para>Identifies what portion of the ultimate scientific project  will address.</para>
-	      <para>Definition of solution system boundaries, e.g. with a context diagram or in a textual form.
+              <entry><para>Identifies what portion of the ultimate scientific project  will be addressed by a solution.</para>
+<para>Definition of solution system boundaries, e.g. with a context diagram or in a textual form.</para>
+<para>Details are in the following rows.</para>
+</entry>
+	    </row>
+	    <row>
+              	<entry><para>Benefits of a <emphasis role="bold">solution</emphasis>
+                	</para>
+            	</entry>
+              	<entry>
+              
+              	<para>The resolution of these problems is also the resolution of scientific requirements, i.e. the increasing of real value for the scientific community. This contributes to define new measurable to compare different solutions.</para>
+		<itemizedlist spacing="compact">
+		  	<listitem><para>Why the current (if exists)/proposed solution is it not profitable? Poor design? Too expensive?</para></listitem>
+			<listitem><para>What are key benefits to find a new solution for this problem?</para></listitem>
+		</itemizedlist>
+
+		<para>Example. <emphasis>Benefits of a solution/new solution that create a new system to address the problem include:</emphasis></para>
+		<itemizedlist spacing="compact">
+			<listitem><para><emphasis>...</emphasis></para></listitem>
+		</itemizedlist>
+
+                </entry>
+	    </row>
+	    <row>
+              <entry><para><emphasis role="bold">Available technologies of the context</emphasis>
+                </para></entry>
+              <entry><para>What could be helpful is a listing of identified shortcomings of currently available technologies used in the context of the considered scientific problem.
                 </para></entry>
 	    </row>
 	    <row>
               <entry><para><emphasis role="bold">Assumptions</emphasis>
                 </para></entry>
-              <entry><para>Assumptions made while scope
+              <entry><para>Assumptions made
                 </para></entry>
 	    </row>
 	    <row>
@@ -184,20 +209,20 @@ xml:id="h.bj00l8vcud7l.1">
                 </para></entry>
               <entry><para>It is possible to describe the solution in term of a workflow, a 
 	      list of functional requirement (list the major features or user capabilities 
-	      unique to the product) or a use case and provide a list of non-functional requirements.</para>
-	      <para>This Note do not specify “how to” write requirements.</para>
-	      <para> <emphasis role="bold">Guidelines: </emphasis> The final solution (hardware and software) 
-	      depends by storage needs, computing power and programming techniques. Some 
+	      unique to the product) or a use case and provides a list of non-functional requirements.</para>
+	      <para>This Note does not specify “how to” write requirements.</para>
+	      <para> <emphasis role="bold">Guidelines: </emphasis> it is important to define problems parametric as some performance targets might not be achievable. Keeping this parametric would help to understand how different performance requirements scale. The final solution (hardware and software) 
+	      depends on storage needs, computing power, and programming techniques. Some 
 	      questions are provided, but feel free to add any information that you think is important:</para>
 	      <orderedlist spacing="compact">
 		<listitem><para>For an experiment, the data acquisition is one of the most important aspects 
 		and may require technologies capable of transmitting data between sensors and acquisition 
 		equipment in very short times and with low latencies. Could you describe the main system 
 		requirements of your data acquisition system? (e.g. data rate, latency, need of high precision 
-		synchronization protocols (PTP))</para></listitem>
-		<listitem><para>In some cases the data must be transferred from the acquisition site to the 
-		site for storage and data analysis. Could you describe the workflow? Do you need appropriate 
-		protocols to ensure the integrity of the data during transfer? Do you need compression techniques? 
+		synchronization protocols (PTP)). <emphasis>Example: for a scientist who needs to acquire data at a rate of 3 GB/s from a distributed network of sensors the solution is a system able to receive and store data at the same rate but with a scalability of ...</emphasis></para></listitem>
+		<listitem><para>In some cases, the data must be transferred from the acquisition site to another 
+		place for storage and data analysis. Could you describe the workflow? Do you need appropriate 
+		protocols to ensure the integrity of the data during the transfer? Do you need compression techniques? 
 		Do you need public/private interfaces to access the data? Could you provide the main system 
 		requirements of your data transfer system?</para></listitem>
 		<listitem><para>If you perform simulations, could you describe the workflow? Could you provide 
@@ -233,86 +258,79 @@ xml:id="h.bj00l8vcud7l.1">
               <entry><para>Restrictions on the solution space and major dependencies to external 
 	      factors outside of the project’s control:</para>
 	      <itemizedlist spacing="compact">
-		<listitem><para>Economics (e.g., costs, licensing issues)</para></listitem>
-		<listitem><para>Politics (e.g., internal or external, interdepartmental issues)</para></listitem>
-		<listitem><para>Technology (e.g., choice of technology, interface with existing technologies/platforms)</para></listitem>
-		<listitem><para>Systems (e.g., existing system, compatibility issues)</para></listitem>
-		<listitem><para>Environment (e.g., legal/environmental/security/standards)</para></listitem>
-		<listitem><para>Schedule and resources (e.g., fixed schedule, team)</para></listitem>
+		<listitem><para>Economics (e.g. costs, licensing issues)</para></listitem>
+		<listitem><para>Politics (e.g. internal or external, interdepartmental issues)</para></listitem>
+		<listitem><para>Technology (e.g. choice of technology, interface with existing technologies/platforms)</para></listitem>
+		<listitem><para>Systems (e.g. existing system, compatibility issues)</para></listitem>
+		<listitem><para>Environment (e.g. legal/environmental/security/standards)</para></listitem>
+		<listitem><para>Schedule and resources (e.g. fixed schedule, team)</para></listitem>
                 </itemizedlist></entry>
 	    </row>
           </tbody>
         </tgroup>
     </informaltable>
 
-    <para>The following sections report a justification of the
-    template.</para>
   </section>
   <section xml:id="h.ivq40yd8cvjz.1">
     <title>Problem analysis and scientific requirements</title>
     <para>It is important to have a summary of the problem that the
     scientific project covers/wants to resolve. The scientific stakeholders
     should extract some basic information from their problem domain.</para>
-    <para>The section “Scientific problem analysis” helps OPFPS members and
+    
+    <para>The section <emphasis role='bold'>“Scientific problem analysis”</emphasis> helps OPFPS members and
     ICT stakeholders to focus on useful information from the problem domain
-    of the scientific project. In fact, this is a basic problem
-    analysis procedure that help OPF members and ICT stakeholders to
+    of the scientific project. <phrase revisionflag="changed">This section is a summary of  the problem
+    analysis performed by scientific stakeholders that help OPF members and ICT stakeholders to
     identify the real value for scientists in the resolution of their
-    problems.</para>
-    <para>The first step is the identification of scientific objectives,
-    i.e. the goals of the scientific project (section “Scientific
-    objectives”).</para>
+    problems.</phrase></para>
+    
+    <para>The first sub-section <emphasis>“Scientific
+    objectives”</emphasis> contains the identification of scientific objectives,
+    i.e. the goals of the scientific project.</para>
+    
     <para>The scientific requirements are needed to reach the scientific
-    objectives. The scientific stakeholders should identify the scientific
-    requirements of the project (in analogy with the “business
+    objectives. The sub-section <emphasis>“Scientific
+    requirements and problem definition”</emphasis> helps scientific stakeholders to identify the <emphasis role='bold'>scientific
+    requirements</emphasis> of the project (in analogy with the “business
     requirements” for an enterprise) for which the proposed solution has the
-    maximum impact, and to provide a metric that will be used to measure
-    the effectiveness of the proposed solution (section “Scientific
-    requirements and problem definition”).</para>
-    <para>The primary reason products/systems don’t help to improve/satisfy
-    the right scientific requirements is because the scientific requirements
-    have not been identified adequately or they have not been properly
-    understood by the ICT stakeholders (section “Underlying causes of a
-    problem”).</para>
-    <para>This step will help to define a reference solution for a
-    workflow/system that will provide a real value for the scientific project
-    (section “Benefits of a solution”).</para>
+    maximum impact, and to provide a <emphasis role='bold'>metric</emphasis> that will be used to measure
+    the effectiveness of the proposed solution.</para>
+    
+    <para><phrase revisionflag="changed">The primary reason products/systems don’t help to improve/satisfy the right scientific requirements is because the challenging and risks of the scientific requirements have not been identified adequately or they have not been properly understood by the ICT stakeholders</phrase>. The sub-section <emphasis>“Known challenging and risks”</emphasis> helps to focus on this aspect.</para>
+    
     <para>For a justification of the problem analysis, and the impact on the
     requirement inception see  
     <xref linkend="h.it0ht7pktu33.1" />. </para>
   </section>
   <section xml:id="h.z8a4r4bndbdc.1">
     <title>System requirements</title>
-    <para>With the scientific requirements in mind the scientific
-    stakeholders should define the system requirements of the HW/SW
+    <para>With the scientific requirements in mind, the scientific
+    stakeholders should define the system requirements for the hardware/software
     solution, i.e. the functional and non-functional requirements of the
     proposed system.</para>
-    <para>These are the main information about the product/solution:</para>
+    <para>These are the primary information about the product/solution:</para>
     <itemizedlist>
-      <listitem>
-        <para>Product Vision: describes what the product is (section “Vision
-        of the solution”).</para>
-      </listitem>
+      
       <listitem>
         <para>Project Scope: identifies what portion of the ultimate
         scientific project the current product/system will address,
-        definition of solution system boundaries. A context diagram could be
+        the definition of solution system boundaries. A context diagram could be
         provided that shows a top-level view of a system and the system’s
-        boundaries (section “Scope”).</para>
+        boundaries (section “Outline of the scope”).</para>
+      </listitem>
+      <listitem>
+        <para>The benefit of a solution: to connect the solution with scientific requirements that must be affected by the solution.</para>
+      </listitem>
+      <listitem>
+        <para>Available technologies of the context: to let non-scientific stakeholders to better understand the technological context of the scientific projects.</para>
       </listitem>
       <listitem>
         <para>Provide clear statements of assumptions (section
         “Assumptions”).</para>
       </listitem>
       <listitem>
-        <para>Functional requirements: It is possible to describe the
-        solution in term of a workflow, a list of functional requirement or a
-        use case ( <xref linkend="h.4d2bodt7akfe.1" /> ). List the major
-        features or user capabilities unique to the new product. For
-        non-functional requirements check  
-        <xref linkend="h.lqcugjv94utp.1" /> for more details.
-        See section “Description of the workflow/main functional and
-        non-functional requirements”.</para>
+        <para>Functional and non-functional requirements. It is possible to describe the solution in term of a workflow, a list of functional requirement (i.e. list the major features or user capabilities unique to the product) ( <xref linkend="h.4d2bodt7akfe.1" /> ) and provide a list of non-functional requirements (  
+        <xref linkend="h.lqcugjv94utp.1" />).</para>
       </listitem>
       <listitem>
         <para>Identify the constraints: put limitations on the ability to
@@ -332,7 +350,7 @@ xml:id="h.bj00l8vcud7l.1">
           Projects/software library/software framework;</para>
         </listitem>
         <listitem>
-          <para>Aim for a concise, specific and comprehensive definition of
+          <para>aim for a concise, specific and comprehensive definition of
           the requirements anticipating that trade-offs may need to be made
           if technology does not meet all requirements;</para>
         </listitem>
@@ -346,7 +364,7 @@ xml:id="h.bj00l8vcud7l.1">
         </listitem>
         <listitem>
           <para>discover and document issues related to requirements that are
-          not covered by current hw/sw solutions/current technology;</para>
+          not covered by current hardware/software solutions/current technology;</para>
         </listitem>
         <listitem>
           <para>give context to non-functional requirements.</para>
@@ -355,50 +373,43 @@ xml:id="h.bj00l8vcud7l.1">
     </section>
     <section xml:id="h.lqcugjv94utp.1">
       <title>System non-functional requirements</title>
-      <para>Not-exhaustive list of non-functional requirements (TBC):</para>
+      <para><phrase revisionflag="changed">This document does not list all the non-functional requirements. Between them we could remember:</phrase></para>
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Quality</emphasis> requirements</para>
+          <para><emphasis role="bold"><phrase revisionflag="changed">performance, availability, efficiency, reliability, scalability, security</phrase></emphasis> requirements</para>
         </listitem>
         <listitem>
-          <para><emphasis role="bold">Constraints</emphasis> </para>
-        </listitem>
-        <listitem>
-          <para>We should take also into account the <emphasis role="bold">reproducibility</emphasis> of
-          the results as a requirements (in particular in parallel computing
+          <para>we should also take into account the <emphasis role="bold">reproducibility</emphasis> of
+          the results as requirements (in particular in parallel computing
           environment);</para>
         </listitem>
       </itemizedlist>
       <itemizedlist>
         <listitem>
-          <para>Think about: testable, and or (at least) traceable? Why
-          traceability?</para>
+          <para>think about: testable, and or (at least) traceable</para>
         </listitem>
       </itemizedlist>
     </section>
   </section>
   <section xml:id="h.k1sz7cwj362y.1">
     <title>The system (the solution)</title>
-    <para>The system, for which we collect system requirements could be a
-    workflow or a dataflow (or part of a workflow) of a solution for a
-    scientific project, a software library of a software framework that could
-    be used as part of a workflow or a dataflow.</para>
+    <para>The system, for which we collect system requirements could be a workflow (or part of) or a data flow of a solution for a scientific project, a software library of a software framework that could be used in a workflow or a data flow.</para>
   </section>
   <section xml:id="h.okc3b56431x4.1">
     <title>In a nutshell</title>
-    <para>With <emphasis role="bold">use cases/workflow/list of system requirements</emphasis> we describe a
-    possible workflow/dataflow of a system and/or software library of a
+    <para>With <emphasis role="bold">use cases/workflow/list of system requirements</emphasis>, we describe a
+    possible workflow/data flow of a system and/or software library of a
     scientific project, using the template.</para>
     <para>The <emphasis role="bold">workflow</emphasis> is a view of the functional requirements of the
     system, with attached system non-functional requirements.</para>
     <para>A <emphasis role="bold">system</emphasis> could be a data analysis system or a software
     library/framework that covers some system requirements.</para>
-    <para>The proposed solution is a possibile solution, using OPF
+    <para>The proposed solution is a possible solution, using OPF
     hardware and software, that implement a system of a scientific project,
     or that optimize an existing solution, or that optimize the use of
     software libraries/framework used/developed by the scientific
     community</para>
-    <para>The <emphasis role="bold">proposed solution</emphasis> contributes to achieving 
+    <para>The <emphasis role="bold">proposed solution</emphasis> contributes to achieve 
     the <emphasis role="bold">scientific
     requirements</emphasis> of a scientific project.</para>
   </section>
