@@ -56,8 +56,8 @@ xml:id="h.d31180cwfjew.1">
     the corner of the current technology, or (more common) new technology
     should be developed to fulfill the requirements. With this in mind, a
     requirement inception process is a challenge because there are many
-    different problems that the OPFPS members should manage to <emphasis role="bold">remove the
-    misunderstanding between scientific and ICT stakeholders</emphasis>:</para>
+    different problems that the OPFPS members should manage to <emphasis role="bold">remove 
+    misunderstanding between scientific and ICT stakeholders</emphasis>. Between them:</para>
     <itemizedlist spacing="compact">
       <listitem>
         <para><emphasis>The problem of scope:</emphasis></para>
@@ -80,7 +80,7 @@ xml:id="h.d31180cwfjew.1">
         <para><emphasis>The problem of understanding:</emphasis> some of them could come from</para>
     	<itemizedlist>
     	  <listitem>
-    	    <para>the users (scientist/research engineer) is not able to translate his problem domain <phrase revisionflag="changed">(because the problem domain covers too many areas of knowledge)</phrase> in a comprehensible way;</para>
+    	    <para>the users (scientist/research engineer) is not able to translate the problem domain (because the problem domain covers too many areas of knowledge) in a comprehensible way;</para>
     	  </listitem>
     	  <listitem>
     	    <para>the involved stakeholder has a full understanding of his
@@ -109,19 +109,18 @@ xml:id="h.d31180cwfjew.1">
       </listitem>
       <listitem>
         <para><emphasis>Requirements volatility:</emphasis> the requirements change over time (see
-        Section 
-        <xref linkend="h.4lpolzhmiyzr.1" /> ).</para>
+        Section <xref linkend="h.4lpolzhmiyzr.1" /> ).</para>
       </listitem>
     </itemizedlist>
     <para>A Physical Science project has no similar examples that could be
     followed, due to its uniqueness. The current experiments help us in
     collecting experience, but sometimes new Physical Science projects are
-    one order of magnitude bigger than current scientific projects (e.g. Big
+    one order of magnitude bigger than current scientific projects (Big
     Science Projects).</para>
     <section xml:id="h.4lpolzhmiyzr.1">
       <title>Volatility</title>
       <para>This section is for ICT stakeholders, to understand some aspects
-      of the organisation of the scientific projects.</para>
+      of the organization of the scientific projects.</para>
       <para>About the <emphasis role="bold">volatility</emphasis>, in a Physical Science project the
       requirements could change over time for many different reasons:</para>
       <itemizedlist>
@@ -131,7 +130,7 @@ xml:id="h.d31180cwfjew.1">
           roles of intended end users all may change during the development
           of the system; to keep this problem under control it is important
           to identify the right <emphasis role="bold">stakeholders</emphasis> within the
-          organisation;</para>
+          organization;</para>
         </listitem>
         <listitem>
           <para>the requirements are the product of the contributions of many
@@ -139,7 +138,8 @@ xml:id="h.d31180cwfjew.1">
           goals (different scientific objects within the same project); to
           keep this under control we have proposed a template in which we try
           to extract basic information from the scientific projects (using
-          some basic steps of <emphasis role="bold">problem analysis</emphasis>);</para>
+          some basic steps of <emphasis role="bold">problem analysis</emphasis>, see
+        Section <xref linkend="h.it0ht7pktu33.1" /> );</para>
         </listitem>
         <listitem>
           <para>increasing knowledge during the development: (i) people are
@@ -151,26 +151,27 @@ xml:id="h.d31180cwfjew.1">
           thanks to new scientific discoveries (the advance of science) that
           could change the scientific objectives and/or the workflow of the
           project itself during the development. We have foreseen an
-          <emphasis role="bold">iterative process</emphasis>.</para>
+          <emphasis role="bold">iterative process</emphasis> (see
+        Section <xref linkend="h.1tyskhwshjst.2" />).</para>
         </listitem>
       </itemizedlist>
     </section>
   </section>
   <section xml:id="h.it0ht7pktu33.1">
     <title>Problem Analysis</title>
-    <para>The problem analysis is for OPFPS members and ICT stakeholders, to
-    better understand the scientific project.</para>
+    <para>The OPFPS members should analyze the information provided by the
+    scientific stakeholders to understand if this is useful to define an
+    effective solution. A key element of this analysis should ensure that
+    “root causes,” not just the symptoms of the problem, are identified and
+    subsequently addressed by the system.</para>
+    
     <para>Due to the uniqueness of the scientific projects and the complexity
     of the problem domain, the problem analysis helps to manage the problems
     of scope and understanding, because they could strongly affect the
     requirement inception. In addition, the problem analysis could avoid or
     reduce presumptions (e.g. from OPFPS members that will analyze use
     cases).</para>
-    <para>The OPFPS members should analyse the information provided by the
-    scientific stakeholders to understand if this is useful to define an
-    effective solution. A key element of this analysis should ensure that
-    “root causes,” not just the symptoms of the problem, are identified and
-    subsequently addressed by the system.</para>
+    
     <para>Some aspects of the problem analysis of a scientific project that
     could be useful in the OPFPS context are:</para>
     <itemizedlist>

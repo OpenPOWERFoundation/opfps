@@ -34,7 +34,7 @@
     <!-- TODO: Pick a Title for the new document -->
     <title>Collecting Use Cases Information</title>
     <!-- TODO: Either add a subtitle or remove the following line -->
-    <subtitle>Method and Template</subtitle>
+    <subtitle>Method and Template for Physical Science</subtitle>
 
     <info>
     <author>
@@ -54,7 +54,7 @@
       <holder>OpenPOWER Foundation</holder>
     </copyright>
     <!-- TODO: Set the correct document releaseinfo -->
-    <releaseinfo>Revision 0.3</releaseinfo>
+    <releaseinfo>Revision 0.4</releaseinfo>
     <productname>OpenPOWER</productname>
     <pubdate/>
 
@@ -88,11 +88,21 @@
     <revhistory>
       <!-- TODO: Set the initial version information and clear any old information out -->
       <revision>
+          <date>2017-06-09</date>
+          <revdescription>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>Revision 0.4: language improvements. Moved Section 3.5 to 3.2. Added definitions.</para>
+              </listitem>
+            </itemizedlist>
+          </revdescription>
+      </revision>
+      <revision>
           <date>2017-05-30</date>
           <revdescription>
             <itemizedlist spacing="compact">
               <listitem>
-                <para>Version 0.3: Discussion during the OPFPS Coordination meeting 2, May 9, 2017. Some issues around two subsections: (1) “Underlying causes of a problem”: it is not clear what the user should specify, and the risk is that the user starts to think about the solution in a “problem definition” section. Dirk and Marilena propose the title “Known challenging and risks”, to make clear that sometimes there are challenges and risks behind the problem. It could be important for finding them that may not be immediately apparent for an external stakeholder.
+                <para>Revision 0.3: Discussion during the OPFPS Coordination meeting 2, May 9, 2017. Some issues around two subsections: (1) “Underlying causes of a problem”: it is not clear what the user should specify, and the risk is that the user starts to think about the solution in a “problem definition” section. Dirk and Marilena propose the title “Known challenging and risks”, to make clear that sometimes there are challenges and risks behind the problem. It could be important for finding them that may not be immediately apparent for an external stakeholder.
 (2) In the subsection “scope“ it must be much clear that the user should provide just a summary. Dirk proposes to rename the section in “Outline of the scope”.
 (3) Added section <xref linkend="h.1tyskhwshjst.2" /></para>
               </listitem>
@@ -104,7 +114,7 @@
           <revdescription>
             <itemizedlist spacing="compact">
               <listitem>
-                <para>Version 0.2: Conversion to OpenPOWER Foundation Document Template</para>
+                <para>Revision 0.2: Conversion to OpenPOWER Foundation Document Template</para>
               </listitem>
             </itemizedlist>
           </revdescription>
@@ -114,7 +124,7 @@
           <revdescription>
             <itemizedlist spacing="compact">
               <listitem>
-                <para>Version 0.2: Dirk's suggestions</para>
+                <para>Revision 0.2: Dirk's suggestions</para>
                 <para>Authors: Andrea Bulgarelli (INAF), Daniele Gregori (E4), Valentina Fioretti (INAF) , Dirk Pleiter (Jülich Supercomputing Centre (JSC)) </para>
               </listitem>
             </itemizedlist>
@@ -125,7 +135,7 @@
           <revdescription>
             <itemizedlist spacing="compact">
               <listitem>
-                <para>Version 0.1: First Draft</para>
+                <para>Revision 0.1: First Draft</para>
                 <para>Authors: Andrea Bulgarelli (INAF), Daniele Gregori (E4), Valentina Fioretti (INAF) </para>
               </listitem>
             </itemizedlist>
