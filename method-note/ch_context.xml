@@ -28,59 +28,69 @@ xml:id="h.fjazhaptp3e8.1">
   <title>The context</title>
   <section xml:id="h.x8ybuq41czt2.1">
     <title>Physical Science</title>
-    <para>Physical Science is any science concerned with nonliving matter,
+    <para><emphasis role='bold'>Physical Science</emphasis> is any science concerned with nonliving matter,
     energy, and the physical properties of the Universe, such as physics,
     chemistry, astronomy, and geology.</para>
     <para>In this context, the OPFPS WG cover the following aspects:</para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>Needs of Big Science Projects</para>
+        <para>needs of a scientific experiment from Big Science Projects to experiments at laboratory level;</para>
       </listitem>
       <listitem>
-        <para>Needs of experiments at laboratory level</para>
+        <para>software frameworks and libraries used in Physical Science projects;</para>
       </listitem>
       <listitem>
-        <para>Software frameworks</para>
-      </listitem>
-      <listitem>
-        <para>Software libraries</para>
+        <para>challenging hardware requirements.</para>
       </listitem>
     </itemizedlist>
   </section>
   <section xml:id="h.1tyskhwshjst.1">
     <title>OPFPS workflow</title>
-    <para>A basic OPFPS workflow could be summarized as the following:</para>
+    <para>A basic <emphasis role='bold'>OPFPS workflow</emphasis> could be summarized as the following:</para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>requirement inception (eliciting requirements), to collect
-        functional requirements (e.g. as use cases) and related
-        non-functional requirements from scientific community (from
+        <para><emphasis>requirement inception (eliciting requirements)</emphasis>, to collect
+        functional  requirements (e.g. as use cases) from the scientific community (from
         scientific stakeholders);</para>
       </listitem>
       <listitem>
-        <para>requirement analysis, determining and refining the system
+        <para><emphasis>requirement analysis</emphasis>, determining and refining the system
         requirements, to provide a coherent view of the use cases, and to
-        resolve misunderstanding (from OPFPS members);</para>
+        resolve misunderstanding (performed by OPFPS members);</para>
       </listitem>
       <listitem>
-        <para>system modelling: deriving a logical workflow/dataflow model of
-        the system, to derive commonalities between different use cases (from
+        <para><emphasis>system modeling</emphasis>: deriving a logical workflow/data flow model of
+        the system, to derive commonalities between different use cases (performed by
         OPFPS members);</para>
       </listitem>
       <listitem>
-        <para>provide a solution (from ICT stakeholders).</para>
+        <para><emphasis>enable ICT stakeholders to provide a suitable solution.</emphasis></para>
       </listitem>
     </itemizedlist>
-    <para>The proposed process is iterative, so that reference solutions can
-    be reworked in the light of increased knowledge. Iteration means that the
-    scientific stakeholders should provide use cases and non-functional
-    requirements and refine them based on feedbacks received by other
-    stakeholders or by the OPFPS members.</para>
+    <para><emphasis role='bold'>This Note covers the requirement inception phase.</emphasis></para>
+    
+   <section xml:id="h.1tyskhwshjst.2">
+    <title>An iterative process</title>
+    <para>The proposed workflow is iterative so that reference solutions can be reworked in the light of increased knowledge and to take under control the problems listed in <xref linkend="h.5an7rpesemtx.1" />. Iteration means that the scientific stakeholders should provide use cases and refine them based on feedbacks received by other stakeholders and by the OPFPS members. With an iterative process that will involve all stakeholders, mistaken assumptions can be detected and corrected.</para>
+    <para>
+    The OPFPS members are available to update the common workflow for each new use case that is added or updated.
+    </para>
+    <para>Iterations will also be made  on the proposed method: </para>
     <itemizedlist spacing="compact">
       <listitem>
-        <para>The OPFPS members are available to update the common workflow
-        for each new use case that is added or updated.</para>
+        <para>defines a method (see <xref linkend="h.bj00l8vcud7l.1" />);</para>
+      </listitem>
+      <listitem>
+        <para>apply the method to concrete use cases;</para>
+      </listitem>
+      <listitem>
+        <para>review approach and update the method;</para>
+      </listitem>
+       <listitem>
+        <para>apply updated method to the next use cases.</para>
       </listitem>
     </itemizedlist>
+  </section>
+  
   </section>
 </chapter>
